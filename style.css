@@ -34,9 +34,7 @@ h6 {
 }
 
 /* Background */
-#css-zen-garden {
-  background: linear-gradient(45deg, #f3f3f3 0%, #c8c8c8 100%);
-}
+
 /* Page wrapper */
 .page-wrapper {
   box-sizing: border-box;
@@ -48,7 +46,8 @@ h6 {
   margin: 0 auto;
 }
 body {
-  background-color: #ffcccc;
+  background: url('christmasbackground.png');
+  background-size: cover;
   color: #008000;
   font-family: Arial, sans-serif;
   line-height: 1.2;
@@ -60,6 +59,8 @@ body {
   margin: 0;
   padding: 10px;
   overflow-y: auto;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1,
