@@ -48,7 +48,7 @@ h6 {
 }
 
 .page-wrapper:hover {
-  transform: scale(1.02); /* Subtle hover effect */
+  transform: scale(1.02); 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
 }
 
