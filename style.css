@@ -153,29 +153,28 @@ a:hover {
 body {
   overflow: relative; 
 }
-
 body::before {
-  content: "❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄";
+  content: "❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ";
   position: fixed;
-  top: -10%; 
-  left: 0;
-  font-size: 2.0rem;
-  white-space: nowrap; 
-  animation: snowfall 10s linear infinite; 
+  top: -10%;
+  left: 0%; /* Offset horizontally */
+  font-size: 2.0rem; /* Size of snowflakes */
+  white-space: nowrap;
+  animation: snowfall 8s linear infinite; /* Continuous animation */
   pointer-events: none;
+   z-index: 1000;
 }
-
 body::after {
-  content: "❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄";
+  content: "❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ";
   position: fixed;
   top: -10%; 
-  left: 50%;
+  right: 0%;
   font-size: 2.0rem; 
   white-space: nowrap; 
-  animation: snowfall 12s linear infinite;/
+  animation: snowfall 7s linear infinite;/
   pointer-events: none;
+   z-index: 1000;
 }
-
 @keyframes snowfall {
   0% {
     transform: translateY(-85%); 
