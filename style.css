@@ -157,10 +157,10 @@ body::before {
   content: "❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ";
   position: fixed;
   top: -10%;
-  left: 0%; /* Offset horizontally */
-  font-size: 2.0rem; /* Size of snowflakes */
+  left: 0%; 
+  font-size: 2.0rem; 
   white-space: nowrap;
-  animation: snowfall 8s linear infinite; /* Continuous animation */
+  animation: snowfall 8s linear infinite; 
   pointer-events: none;
    z-index: 1000;
 }
